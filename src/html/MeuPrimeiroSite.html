@@ -26,19 +26,17 @@
 
         <fieldset>
             <legend class="fonte02">Área do Cliente</legend>
-        <label for="txtUsuario" class="fonte04">Digite o seu usuário:</label>
-        <input type="text" id="txtUsuario" name="usuario" autofocus>
-
-        <label for="txtSenha" class="fonte04">Digite a senha</label>
-        <input type="password" name="senha" id="txtSenha">
-
-        <input type="submit" value="Entrar">
-        <br>
-        <form action="http://google.com/search" method="GET" target="_blank">
-            <label for="txtBusca" class="fonte04">Digite o que procura:</label>
-            <input type="text" name="q" id="txtBusca">
-            <input type="submit" value="Pesquisar">          
-        </form>
+                <label for="txtUsuario" class="fonte04">Digite o seu usuário:</label>
+                    <input type="text" id="txtUsuario" name="usuario" autofocus>
+                <label for="txtSenha" class="fonte04">Digite a senha</label>
+                    <input type="password" name="senha" id="txtSenha">
+                    <input type="submit" value="Entrar">
+                    <br><br><br><br><br>
+            <form action="http://google.com/search" method="GET" target="_blank">
+                <label for="txtBusca" class="fonte04">Digite o que procura:</label>
+                    <input type="text" name="q" id="txtBusca">
+                    <input type="submit" value="Pesquisar">          
+            </form>
 
         </fieldset>
                 <br>
@@ -49,6 +47,39 @@
             <br>
             <fieldset>
                 <legend class="fonte02"> &#x2755 &#x2755 Preencha seus dados e faça parte do nosso grupo &#x2755 &#x2755</legend>
+
+                <label for="txtname" class="fonte04">Nome:</label>
+                <input id="txname" type="name" required minlength="5" maxlength="15">
+                <br><br>
+                    <label for="txtEmail" class="fonte04">E-mail:</label>
+                    <input id="txtEmail" type="email" required minlength="5" maxlength="15"
+                        placeholder="Informe um e-mail válido!">
+                    <br><br>
+                    <label class="fonte04">Nascimento</label>
+                    <input type="date" min="2021-01-30" max="2025-01-30">
+                    <br><br>
+                    <p class="fonte04">Sexo:</p>
+                    <label class="fonte04"      >
+                        <input type="radio" name="sexo" value="M">
+                        Masculino
+                    </label>
+        
+                    <label class="fonte04">
+                        <input type="radio" name="sexo" value="F">
+                        Feminino
+                    </label>
+                    <br>
+                    <input type="hidden" name="expira" value="2021-12-30">
+                    <br>
+                    <label class="fonte04"> Estado</label>
+                    <select name="estado" id="opcaoEstado">
+                        <option value="0">Selecione</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                    </select>
+                    <br> <br>      
+                    <input type="submit" value="Enviar">
             </fieldset>
 
         </form>
