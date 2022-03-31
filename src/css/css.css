@@ -1,0 +1,19 @@
+     body {
+        background-color: rgb(250, 218, 37);
+    }
+
+    .paragrafo-azul {
+        background-color: rgb(49, 138, 255);
+    }
+
+    .fonte-azul {
+        color: rgb(23, 124, 255);
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .fonte-preto {
+        color: rgb(6, 9, 12);
+        font-size: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
